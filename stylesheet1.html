@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top{
+            background-color: #18a26f;
+            color:white;
+            padding: 10px 10px;
+            border-radius: 5px;
+            margin :0px;
+        }
+        .left1{
+            width:200px;
+            float:left;
+            margin-right: 30px;
+            
+        }
+        .left2{
+
+            width:950px;
+            margin-right: 50px;
+            float:left;
+        }
+        .left3{
+            width:200px;
+            float:left;
+            background-color: rgb(90, 123, 173);
+            color:white;
+            border-radius: 5px;
+            padding : 40px 10px;
+            
+            margin:10px;
+            margin-left: 30px;
+        }
+
+       
+        .selectButton{
+            background-color: rgb(221, 221, 221);
+            padding:5px 10px;
+            border-radius: 5%;
+            border:1px solid rgb(176, 174, 174)
+        }
+        .selectButton:hover{
+            background-color: rgb(142, 221, 142);
+            color:white;
+           
+            padding:5px 10px;
+            border-radius: 5px;
+
+        }
+
+        .active{ /*hover 통해서 저기 마우스 드레그 뭐 할 수 있는 듯*/
+            background-color: rgb(142, 221, 142);
+            color:white;
+           
+            padding:5px 10px;
+            border-radius: 5px;
+
+        }
+        .bottom{
+            clear: both;
+            font-size: 11px;
+            background-color: rgb(202, 199, 199);
+            padding:10px 20px 30px 20px;
+            border : 1px solid rgb(141, 139, 139);
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>Welcome to Bong's homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div class="middle">
+        <div class="left1">
+            <div class="selectbar"> 
+                <p class ="selectButton" onclick="location.href='stylesheet1.html'">Stylesheet1</p>
+                <p class ="selectButton" onclick="location.href='stylesheet2.html'">Stylesheet2</p>
+                <p class ="selectButton" onclick="location.href='stylesheet3.html'">Stylesheet3</p>
+                <p class ="selectButton" onclick="location.href='stylesheet4.html'">Stylesheet4</p>
+                <p class ="selectButton" onclick="location.href='index.html'">NO Stylesheet</p>
+            </div>
+        </div>
+        <div class="left2">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+             <a href="stylesheet1.html">Stylesheet1</a>,
+            <a href="stylesheet2.html"> Stylesheet2</a>,
+            <a href="stylesheet3.html"> Stylesheet3</a>,
+            <a href="stylesheet4.html"> Stylesheet4</a>
+            <br/>
+            <h2>No Styles</h2>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+            <a href="index.html">No Stylesheet</a><br/>
+        </div>
+        <div class="left3">
+            <h3>Side-Bar</h3>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <p> </p>
+    <div class="bottom">
+        <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    </div>
+</body>
+</html>

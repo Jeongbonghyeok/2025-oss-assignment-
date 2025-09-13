@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(215, 98, 98);
+        }
+        .head{
+            color:white;
+        }
+        .mid{
+           
+        }
+        .left{
+            background-color: white;
+            float:left;
+            width:1100px;
+            height:320px;
+            padding: 20px 20px;
+        }
+        .right{
+            background-color: white;
+            float:left;
+            width:320px;
+            height:320px;
+            padding: 20px 20px;
+            margin-bottom :10px;
+        }
+        .selectButton{
+            background-color:rgb(215, 98, 98) ;
+            color:white;
+            padding:10px;
+            border: 2px solid ;
+            border-radius: 30px;
+            width: 200px;
+            margin:20px 30px;
+            text-align: center;
+            height:20px;
+        }
+        .sidebar{
+            background-color: rgb(228, 187, 187);
+            padding:20px;
+            width:1460px;
+
+        }
+        .bottom{
+            clear:both;
+            color:white;
+            font-size: smaller;
+            width: 1400px;
+            text-align: center;
+            padding-left: 30px;
+            padding-right:30px;
+        }
+        .selectButton:hover{
+            background-color: white;
+            color:rgb(215, 98, 98);
+            border: 2px solid rgb(215, 98, 98);
+
+        }
+        .selectButton2{
+            background-color: white;
+            color:rgb(215, 98, 98);
+            border: 2px solid rgb(215, 98, 98);
+            padding:10px;
+            border: 2px solid ;
+            border-radius: 30px;
+            width: 200px;
+            margin:20px 30px;
+            text-align: center;
+            height:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 style="font-size: 50px;">Welcome to Bong's Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div class="mid">
+        <div class="left">
+            <h2 style="color:rgb(215, 98, 98);">Same Page Different Stylesheets</h2>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+            <a href="stylesheet1.html" style="color:rgb(215, 98, 98);">Stylesheet1</a>,
+            <a href="style2.html" style="color:rgb(215, 98, 98); "> Stylesheet2</a>,
+            <a href="style3.html" style="color:rgb(215, 98, 98);"> Stylesheet3</a>,
+            <a href="style4.html" style="color:rgb(215, 98, 98);"> Stylesheet4</a>
+            <br/>
+            <h3 style="color:rgb(215, 98, 98);">No Styles</h3>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+             <a href="index.html" style="color:rgb(215, 98, 98);"> No stylesheet</a>
+        </div>
+        <div class="right">
+            <p class ="selectButton" onclick="location.href='stylesheet1.html'">Stylesheet1</p>
+            <p class ="selectButton2" onclick="location.href='stylesheet2.html'"><b>Stylesheet2</b></p>
+            <p class ="selectButton" onclick="location.href='stylesheet3.html'">Stylesheet3</p>
+            <p class ="selectButton" onclick="location.href='stylesheet4.html'">Stylesheet4</p>
+            <p class ="selectButton" onclick="location.href='index.html'">NO Stylesheet</p>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h3 style="color:rgb(215, 98, 98);">Side-Bar</h3>
+        <p style="color:rgb(215, 98, 98);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+    <div class="bottom">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    </div>
+</body>
+</html>

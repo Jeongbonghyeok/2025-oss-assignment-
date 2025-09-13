@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+            body{
+                background-color: rgb(37, 37, 50);
+                color:white
+            }
+            
+            .left{
+                float:left;
+                font-size: 27px;
+                width:400px;
+                margin:30px;
+                text-align: center;
+                margin-right:350px;
+            }
+            .right{
+                float:left;
+                
+                margin:30px;
+                
+            }
+            .mid{
+                clear:both;
+                text-align: center;
+                justify-content: center; /* 가로 가운데 */
+                align-items: center; 
+                padding :40px;
+                margin: 40px;
+                margin-top: 100px;
+                margin-left: 300px;
+                margin-right: 300px;
+            }
+            .ele{
+                margin:10px;
+                text-align: center;
+                color:rgb(100, 99, 99);
+                
+            }
+            .eleSelect{
+                color:white;
+                text-decoration: underline;
+                text-decoration-thickness: 3px;
+                text-underline-offset: 5px;
+                text-decoration-color:white;
+
+                margin:10px;
+                text-align: center;
+            }
+            .ele:hover{
+                text-decoration: underline;
+                text-decoration-thickness: 3px;
+                text-underline-offset: 5px;
+                text-decoration-color: rgb(100, 99, 99);
+            }
+            .learn{
+                width:120px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+                background-color: white;
+                color:rgb(37, 37, 50);
+                align-items: center; 
+                justify-content: center;
+                margin: 0 auto; 
+            }
+
+            .bottom{
+                text-align: center;
+                font-size: small;
+            }
+            .mode{
+                background-color: rgb(99, 53, 143);
+                color:white;
+                position:fixed;
+                bottom:20px;
+                right:20px;
+                padding :10px;
+                margin: 10px;
+                border-radius: 5px;
+
+            }
+            .selection{
+                background-color: white;
+                color:black;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="left">
+               &nbsp;&nbsp;Cover
+        </div>
+        <div class="right">
+            <b class ="ele eleSelect">home</b>
+            <b class ="ele">Features</b>
+            <b class ="ele">Contact</b>
+        </div>
+    </div>
+    <br/><br/><br/>
+    <div class="mid">
+        <p style="font-size: 39px;">Cover your page.</p>
+        <p>Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <br/>
+        <p class="learn">Learn more</p>
+    </div>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <div class="bottom">
+        <p style="color:rgb(116, 117, 119)">Cover template for <a href="index.html" style="color:white">Bootrap</a>, by <a href="https://www.instagram.com/max_bong_02/" style="color:white">@max_bong_02</a></p>
+    </div>
+    <div class="bar">
+        <select class="mode" name="mode">
+            <option value="light" class="selection" selected >☀ </option>
+            <option value="dark"  class="selection">☾ </option>
+            <option value="auto"  class="selection">◑ </option>
+        </select>
+    </div>
+</body>
+
+</html>
